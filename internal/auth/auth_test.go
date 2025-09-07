@@ -20,7 +20,7 @@ func TestGetApiKey(t *testing.T) {
 			key:     "Authorization",
 			value:   validHeaderValue,
 			apiKey:  validAPIKey,
-			wantErr: true,
+			wantErr: false,
 		},
 		{
 			name:    "Missing Key",
